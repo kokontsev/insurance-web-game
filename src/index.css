@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #141414;
+  color: #eaeaea;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Epilepsy Sans Bold";
+  src: url("./assets/fonts/EpilepsySansBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Epilepsy Sans";
+  src: url("./assets/fonts/EpilepsySans.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes diagonalShimmer {
+  0% {
+    transform: translateX(-160%) translateY(160%) rotate(25deg);
+  }
+
+  100% {
+    transform: translateX(160%) translateY(-160%) rotate(25deg);
+  }
+}
+
+.shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer::after {
+  content: "";
+  position: absolute;
+  top: -120%;
+  left: -35%;
+  width: 45%;
+  height: 320%;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.12) 20%,
+    rgba(255, 255, 255, 0.38) 50%,
+    rgba(255, 255, 255, 0.12) 80%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  filter: blur(6px);
+  animation: diagonalShimmer 1.4s linear infinite;
+  pointer-events: none;
+}
+
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0b0b0d;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+  color: #eaeaea;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, * {
+  cursor: url("./assets/images/cursor.png"), auto;
+}
+
+button,
+a,
+input,
+textarea,
+select {
+  cursor: url("./assets/images/cursor.png"), pointer;
+}
