@@ -63,7 +63,7 @@ function HomePage() {
             transform: `scale(${scale})`,
           }}
         >
-          <CornerActionButton
+          {/* <CornerActionButton
             onClick={() => navigate("/")}
             icon={exitIcon}
             hoverIcon={exitIconHover}
@@ -73,7 +73,7 @@ function HomePage() {
               width: "40px",
               height: "40px",
             }}
-          />
+          /> */}
 
           <div style={styles.stage}>
             <h1 style={styles.title}>Страховка — это не про скуку. Проверим?</h1>
