@@ -241,6 +241,7 @@ const styles = {
     fontSize: "20px",
     marginBottom: "14px",
     outline: "none",
+    ursor: url("./assets/images/cursor-pointer.png"),
     fontFamily: "Arial, sans-serif",
   },
 
@@ -253,7 +254,7 @@ const styles = {
     color: "#FFFFFF",
     fontSize: "18px",
     fontWeight: "700",
-    cursor: "pointer",
+    cursor: url("./assets/images/cursor-pointer.png"),
     fontFamily: "Arial, sans-serif",
   },
 };
