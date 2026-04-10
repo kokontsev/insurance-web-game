@@ -98,5 +98,5 @@ a,
 input,
 textarea,
 select {
-  cursor: url("./assets/images/cursor.png"), pointer;
+  cursor: url("./assets/images/cursor-pointer.png"), pointer;
 }
