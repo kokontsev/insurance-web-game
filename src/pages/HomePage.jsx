@@ -241,7 +241,7 @@ const styles = {
     fontSize: "20px",
     marginBottom: "14px",
     outline: "none",
-    ursor: url("./assets/images/cursor-pointer.png"),
+    cursor: url("./assets/images/cursor-pointer.png"),
     fontFamily: "Arial, sans-serif",
   },
 
