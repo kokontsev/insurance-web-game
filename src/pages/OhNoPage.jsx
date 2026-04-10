@@ -306,7 +306,6 @@ const styles = {
   fontFamily: "Roboto, Arial, sans-serif",
   fontSize: "20px",
   lineHeight: "130%",
-  cursor: "pointer",
   alignSelf: "center",
   marginTop: "auto",
 },

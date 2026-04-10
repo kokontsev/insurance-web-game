@@ -362,7 +362,6 @@ const styles = {
     fontWeight: "400",
     fontSize: "20px",
     lineHeight: "130%",
-    cursor: "pointer",
   },
 };
 

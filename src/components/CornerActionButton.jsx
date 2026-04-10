@@ -31,7 +31,6 @@ const styles = {
     position: "absolute",
     border: "none",
     background: "transparent",
-    cursor: "pointer",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",

@@ -387,7 +387,6 @@ memoButtonPrimary: {
   fontFamily: "Roboto, Arial, sans-serif",
   fontSize: "20px",
   lineHeight: "130%",
-  cursor: "pointer",
 },
 
 memoButtonSecondary: {
@@ -402,7 +401,6 @@ memoButtonSecondary: {
   fontFamily: "Roboto, Arial, sans-serif",
   fontSize: "20px",
   lineHeight: "130%",
-  cursor: "pointer",
 },
 };
 

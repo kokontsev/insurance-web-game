@@ -177,7 +177,6 @@ const styles = {
     color: "#FFFFFF",
     fontSize: "16px",
     fontWeight: "700",
-    cursor: "pointer",
     padding: "12px 24px",
   },
   secondaryButton: {
@@ -188,7 +187,6 @@ const styles = {
     color: "#141414",
     fontSize: "16px",
     fontWeight: "700",
-    cursor: "pointer",
     padding: "12px 24px",
   },
 };

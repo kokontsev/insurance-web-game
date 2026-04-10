@@ -60,7 +60,6 @@ const styles = {
     color: "#FFFFFF",
     fontSize: "16px",
     fontWeight: "700",
-    cursor: "pointer",
     padding: "12px 24px",
   },
 };
