@@ -95,8 +95,11 @@ html, body, * {
 
 button,
 a,
-input,
-textarea,
-select {
+[role="button"] {
   cursor: url("./assets/images/cursor-pointer.png"), pointer;
+}
+
+input,
+textarea {
+  cursor: text;
 }
