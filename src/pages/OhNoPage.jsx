@@ -59,7 +59,7 @@ function OhNoPage() {
         <div style={{ ...styles.scene, transform: `scale(${scale})` }}>
           <Header
             heroName={story.heroName}
-            balance={story.startBalance}
+            balance={0}
             insuranceLabel={insuranceLabel}
             navigate={navigate}
             balanceIcon={balanceIcon}
