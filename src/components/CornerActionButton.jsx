@@ -43,6 +43,7 @@ const styles = {
     height: "100%",
     objectFit: "contain",
     display: "block",
+    pointerEvents: "none",
   },
 };
 

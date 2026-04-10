@@ -94,12 +94,17 @@ html, body, * {
 }
 
 button,
+button *,
 a,
-[role="button"] {
-  cursor: url("./assets/images/cursor-pointer.png"), pointer;
+a *,
+[role="button"],
+[role="button"] * {
+  cursor: url("./assets/images/cursor-pointer.png"), pointer !important;
 }
 
 input,
-textarea {
-  cursor: text;
+textarea,
+input *,
+textarea * {
+  cursor: text !important;
 }
